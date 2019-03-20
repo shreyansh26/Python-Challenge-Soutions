@@ -1,6 +1,6 @@
 from collections import Counter
 
-with open("2.html", "r") as f:
+with open("file2", "r") as f:
 	x = f.read()
 
 c = Counter(x)
